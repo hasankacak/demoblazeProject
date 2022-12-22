@@ -42,6 +42,9 @@ public class LoginPage extends BasePage {
         Alert alert= Driver.get().switchTo().alert();
         String actualMessage=alert.getText();
 
+        System.out.println("expectedMessage = " + expectedMessage);
+        System.out.println("actualMessage = " + actualMessage);
+
         Assert.assertEquals("negative login Message does NOT match",expectedMessage,actualMessage);
     }
 
