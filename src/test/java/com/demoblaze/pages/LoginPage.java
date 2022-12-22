@@ -44,6 +44,7 @@ public class LoginPage extends BasePage {
 
         System.out.println("expectedMessage = " + expectedMessage);
         System.out.println("actualMessage = " + actualMessage);
+        System.out.println("actualMessage = " + actualMessage);
 
         Assert.assertEquals("negative login Message does NOT match",expectedMessage,actualMessage);
     }
