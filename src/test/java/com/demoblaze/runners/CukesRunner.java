@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/demoblaze/stepDefs",
         dryRun = false,
-        tags = "@negativeScenario"
+        tags = "@wip"
 )
 
 
